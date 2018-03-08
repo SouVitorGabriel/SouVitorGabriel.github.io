@@ -1,0 +1,29 @@
+.bg-1 {
+    background-color: #009B9B;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.bg-2 {
+    background-color: #293C52;
+    color: #ffffff;
+    text-align: justify;
+}
+.bg-2 h3{
+    text-align: center;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+#ee {
+    text-align: right;
+    padding-top: 50px;
+}

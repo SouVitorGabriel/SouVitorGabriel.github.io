@@ -1,8 +1,8 @@
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .bg-1 {
@@ -39,4 +39,8 @@ a:link {
 #ee {
     text-align: right;
     padding-top: 50px;
+}
+
+.img-responsive {
+    display: inline;
 }

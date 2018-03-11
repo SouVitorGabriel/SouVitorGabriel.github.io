@@ -6,16 +6,16 @@
 }
 
 .bg-1 {
-    margin-top: 30px;
     background-color: #009B9B;
     color: #ffffff;
     text-align: center;
+    border-top: 45px solid #009B9B;
 }
 
 .bg-2 {
     background-color: #293C52;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 .bg-2 h4{
     line-height: 1.6;
@@ -31,6 +31,11 @@ a:link {
     text-align: center;
 }
 
+.bg-4 {
+    background-color: #006464;
+    color: #ffffff;
+    text-align: center;
+}
 
 .title {
     text-align: center;
@@ -44,4 +49,20 @@ a:link {
 
 .img-responsive {
     display: inline;
+}
+
+.navbar {
+    border: 0;
+    background-color: #006464;
+}
+
+.navbar-nav  li a {
+    color: #FFFFFF !important;
+}
+.navbar-brand {
+    color: #FFFFFF !important;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
 }

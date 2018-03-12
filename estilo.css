@@ -1,3 +1,6 @@
+body {  font: 20px Roboto, sans-serif;
+        line-height: 1.8;
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -32,11 +35,19 @@ a:link {
 }
 
 .bg-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #293C52;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #006464;
     color: #ffffff;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .title {
@@ -54,12 +65,13 @@ a:link {
 }
 
 .navbar {
-    border: 0;
+    border-bottom: 2px solid #ACACAC;
     background-color: #006464;
 }
 
 .navbar-nav  li a {
     color: #FFFFFF !important;
+    font-size: 15px;
 }
 .navbar-brand {
     color: #FFFFFF !important;

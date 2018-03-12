@@ -35,6 +35,8 @@ a:link {
     background-color: #006464;
     color: #ffffff;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .title {
@@ -65,4 +67,29 @@ a:link {
 
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+    }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
 }

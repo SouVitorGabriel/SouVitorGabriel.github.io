@@ -253,4 +253,12 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
 
+  /* GoodReads */
+.button.button-goodreads {
+  color: #553B08;
+  background-color: #F3F1E6 }
+.button.button-youtube:hover,
+.button.button-youtube:focus {
+  filter: brightness(90%) }
+
 

@@ -1378,8 +1378,7 @@ footer .credits a {
 
 .venoframe { height: 100%; }
 
-
-
 .vbox-content {
   height: 90%;
+  margin-top: 40.3px !important;
 }

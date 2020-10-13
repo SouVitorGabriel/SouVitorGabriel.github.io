@@ -10,8 +10,10 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
-  background-image: linear-gradient(to top right, #ffbe00, #ff7800);
+  /*! color: #272829; */
+  background-image: background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(204, 22, 22, 0);
+  background: transparent;
 }
 
 a {

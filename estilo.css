@@ -17,6 +17,7 @@ body {  font: 20px Roboto, sans-serif;
 
 .bg-2 {
     background-color: #293C52;
+    background-image: linear-gradient(to top left, #293C52, #335780);
     color: #ffffff;
     text-align: center;
 }

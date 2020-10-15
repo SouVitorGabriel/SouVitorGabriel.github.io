@@ -149,13 +149,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #282828;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   margin: 0 auto;
 }
 
@@ -1379,3 +1379,61 @@ footer .credits a {
   height: 90%;
   margin-top: 40.3px !important;
 }
+
+
+.btn2 {
+  border: 12px;
+  outline: 10px;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.btnStack {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  background-color: orange;
+  color: #1e1e1e;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 8px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+a.btnStack:hover {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #botaovoltar{
+    text-align: center;
+  }
+  }
+
+  #botaovoltar{
+    text-align: center;
+  }

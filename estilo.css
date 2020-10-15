@@ -112,3 +112,7 @@ a:link {
     background: #333333;
     color: white;
 }
+
+a:visited {
+    color: white;
+  }

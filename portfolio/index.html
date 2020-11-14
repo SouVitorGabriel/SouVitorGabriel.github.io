@@ -2,12 +2,14 @@
 <html lang="pt-br">
 
 <head>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Portfólio</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
+
 
   <!-- Web Preview Metas
   -------------------------------------------------- -->
@@ -47,6 +49,17 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+
+  <!-- Link do manifest PWA -->
+  <link rel="manifest" href="/manifest.json">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+      .then(reg => console.info('registered sw', reg))
+      .catch(err => console.error('error registering sw', err));
+    } 
+  </script>
 
   <style>
 

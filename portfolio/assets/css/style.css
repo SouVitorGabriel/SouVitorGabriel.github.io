@@ -11,7 +11,8 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
-  background-image: linear-gradient(to top left, #ff7800, #ffbe00, #dfff00);
+  /* old version background-image: linear-gradient(to top left, #ff7800, #ffbe00, #dfff00);*/
+  background-image: linear-gradient(to top left, #ffb06c, #ffd559, #e7ff47);
 }
 
 h1,
